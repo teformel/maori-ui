@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import MrButton from './components/button.vue'
 
-createApp(App).mount('#app')
+createApp(App).component(MrButton.name, MrButton).mount('#app')
